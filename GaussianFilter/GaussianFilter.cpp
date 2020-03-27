@@ -19,6 +19,7 @@ int main()
 
 		GaussianBlur(frame, GaussFilterMat, Size(3, 3), 6, 5, BORDER_DEFAULT);
 
+
 		imshow("frame", frame);
 		imshow("result", GaussFilterMat);
 		waitKey(30);
